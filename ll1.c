@@ -259,6 +259,7 @@ void main(void)
 	}
 	default:
 	{
+		write(1, "Good bye!\n", 10);
 		i = '0';
 		break;
 	}
